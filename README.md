@@ -2,7 +2,7 @@
 
 This repository contains Terraform configurations for deploying various AWS services using modular and non-modular implementations.
 
-Table of Contents
+# Table of Contents
 Introduction
 Terraform AWS Infrastructure
 Non-Modularized
@@ -14,16 +14,16 @@ Automating with GitHub Actions
 Contributing
 License
 Contact
-Introduction
+# Introduction
 This repository provides infrastructure-as-code configurations written in Terraform for deploying and managing a variety of AWS services. The configurations are organized into modular and non-modular implementations to offer flexibility and reusability.
 
-Terraform AWS Infrastructure
+# Terraform AWS Infrastructure
 This repository contains Terraform configurations to provision various AWS services for infrastructure deployment. The configurations are organized into two directories: "Non-Modularized" and "Modularized."
 
-Non-Modularized
+# Non-Modularized
 The "Non-Modularized" directory includes configurations and projects that do not follow a modular implementation approach. It contains Terraform files that directly define the resources and their configurations for provisioning AWS services. This approach is suitable for smaller projects or when modularity is not a primary requirement.
 
-Modularized
+# Modularized
 The "Modularized" directory contains configurations that follow a modular implementation approach. It leverages Terraform modules to encapsulate and reuse infrastructure components across different projects. Each module represents a specific AWS service or a group of related services, allowing for easier management, scalability, and reusability of infrastructure code. This approach is recommended for larger projects or when there is a need for flexibility, maintainability, and modularity.
 
 Services Configured
@@ -53,12 +53,15 @@ Snapshot (EBS snapshots)
 ECS Fargate
 Route53
 Cloudfront
-Certificate Manager,etc
+Certificate Manager
+
+
+
 Getting Started
 To get started with deploying the AWS services using Terraform, follow these steps:
 
 Clone this repository to your local machine.
-Install Terraform (version X.X.X) from the official Terraform website here.
+Install Terraform (version X.X.X) from the official Terraform website.
 Configure your AWS credentials by setting the necessary environment variables or using the AWS CLI aws configure command.
 Navigate to the desired service directory within the repository.
 Run terraform init to initialize the Terraform workspace.
